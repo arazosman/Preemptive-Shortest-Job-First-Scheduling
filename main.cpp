@@ -41,7 +41,7 @@ int main()
     std::sort(jobs.begin(), jobs.end(), [] (const Job &job1, const Job &job2) { return job1.arrival < job2.arrival; });
     
     int first = 0, last = 0;  // the range of active jobs (last is not inclusive)
-    // an active job means that the arrival time of the job passed the current time
+    // an active job means that the current time passed the arrival time of the job  
     // and the job hasn't finished yet
 
     // processing the jobs till the time become to the longest arrival time 
