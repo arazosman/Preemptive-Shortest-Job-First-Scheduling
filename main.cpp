@@ -1,3 +1,21 @@
+/*
+    Operating Systems - Assignment 1
+    Pre-Emptive Shortest Job First Scheduling
+
+    Student:
+    Name: Osman Araz
+    No: 16011020
+    Delivery Date: 24.12.2019
+*/
+
+/*
+    Input examples:
+    input #1: 7 p1 8 1 p2 5 1 p3 2 7 p4 4 3 p5 2 8 p6 4 2 p7 3 5
+    input #2: 4 p1 0 8 p2 1 4 p3 2 9 p4 3 5
+    input #3: 4 p1 1 6 p2 1 8 p3 2 7 p4 3 3
+    Just copy one of the inputs above and past that to the executed program screen and hit enter.
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
