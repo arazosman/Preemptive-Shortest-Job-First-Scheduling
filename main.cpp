@@ -119,7 +119,7 @@ double totalWaitingTime(const std::vector <Job> &jobs, int N)
 */
 void printSchedule(const std::vector <Job> &jobs, int N)
 {
-    printf("\n\nJob Name   Arrival Time   Burst Time   Waiting Time\n\n");
+    std::cout << "\n\nJob Name   Arrival Time   Burst Time   Waiting Time\n" << std::endl;
 
     for (int i = 0; i < N; ++i)
     {
