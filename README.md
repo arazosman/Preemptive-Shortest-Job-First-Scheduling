@@ -5,7 +5,7 @@ Preemptive SJFS Algorithm which written in C++ programming language. It's common
 In Unix, open up your terminal screen and go to the directory of the source files via *cd* command:
 
 ```
-cd /home/*USERNAME*/SJFS
+cd *PATH OF PROGRAM*
 ```
 
 Compile the program with G++ (Make sure that G++ has installed on your computer.):
