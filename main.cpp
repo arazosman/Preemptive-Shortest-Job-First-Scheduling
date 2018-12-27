@@ -79,7 +79,7 @@ int main()
     while (first < last)   // processing remaining active jobs
         processJob(jobs, N, first, last);
 
-    // sorting the jobs according to their arrival times, to display the user results
+    // sorting the jobs according to their arrival times, to display results to the user
     std::sort(jobs.begin(), jobs.end(), [] (const Job &job1, const Job &job2) { return job1.arrival < job2.arrival; });
 
     printSchedule(jobs, N);
