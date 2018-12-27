@@ -69,7 +69,7 @@ int main()
         // that/those job/jobs become active
         for (int i = last; i < N && jobs[i].arrival == t; ++i)
             // incrementing the last, which represents the upper bound (not inclusive) of active jobs
-            // and repositioning the new job according to its burst time in a function
+            // and repositioning the new job according to its burst time
             newJobComes(jobs, N, first, ++last);
 
         if (first < last)   // if there are active job/jobs, process the first one of them
